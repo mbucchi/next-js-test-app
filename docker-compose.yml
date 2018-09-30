@@ -5,7 +5,7 @@ services:
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf
     ports:
-      - "8080:80"
+      - "80:80"
     links:
       - "node"
   node:
